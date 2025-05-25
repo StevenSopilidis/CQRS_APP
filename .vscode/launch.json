@@ -21,7 +21,8 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://localhost5010" 
+                "ASPNETCORE_URLS": "http://localhost5010",
+                "KAFKA_TOPIC": "SocialMediaMostEvents" 
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
@@ -47,7 +48,8 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http://localhost5011" 
+                "ASPNETCORE_URLS": "http://localhost5011",
+                "KAFKA_TOPIC": "SocialMediaMostEvents" 
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
