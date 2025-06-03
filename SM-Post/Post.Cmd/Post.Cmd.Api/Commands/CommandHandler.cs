@@ -62,5 +62,11 @@ namespace Post.Cmd.Api.Commands
             aggregate.DeletePost(command.Username);
             await _handler.SaveAsync(aggregate);
         }
+
+        public async Task HandleAsync(RestoreReadDbCommand command) 
+        {
+            await _handler.RepublishEventsAsync();
+        }
+
     }
 }

@@ -11,5 +11,7 @@ namespace CQRS.Core.Infrastructure
         );
 
         Task<List<BaseEvent>> GetEventsAsync(Guid aggregateId);   
+
+        Task<List<Guid>> GetAggregateIdsAsync();
     }
 }
